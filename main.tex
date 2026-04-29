@@ -1,0 +1,107 @@
+\documentclass{mcmthesis}
+\usepackage{hyperref} % 引入 hyperref 宏包，用于添加超链接功能
+\usepackage{tocloft}
+\mcmsetup{tcn = 12345, problem = C, titlepage = true}
+\mcmsetup{sheet = true}
+
+\usepackage{blindtext}      % 提供 \blindtext 命令，演示用
+
+\title{The Title}
+\author{Liam Huang}
+\date{\today}
+\setcounter{tocdepth}{3}
+\begin{document}
+\begin{abstract}
+This is abstract,this is abstract           % 演示用无意义文字
+\begin{keywords}
+keyword 1; keyword 2
+\end{keywords}
+
+\end{abstract}
+
+\maketitle                  % 打印控制页等
+\tableofcontents % 生成目录
+\newpage
+\section{Introduction}
+\label{sec:introduction}
+This is an introduction.
+This is an introduction.
+\subsection{Background}
+This is background.
+
+
+
+\subsection{Literature Review}
+This is the literature review
+
+
+
+\subsection{The Description of the Problem}
+This is the description of the problem.
+
+
+
+
+\subsection{Our work}
+This is our work     
+\section{Assumptions}
+
+
+\textbf{Assumption 1:} The light attenuation and scattering in the underwater environment adhere to the Jaffe-McGlamery imaging model, where light propagations an exponential decay law.
+
+\newpage
+\section{Notations}
+\setlength{\parindent}{2em} % 设置缩进为2个字符宽度
+
+
+The core symbols and their definitions used in this study are summarized in Table~\ref{table:notations}, providing an overview of the key parameters and their related meanings.
+
+\begin{table}[ht]
+\centering
+\caption{Notations used in this literature}
+\renewcommand{\arraystretch}{1.5} % Adjust row spacing
+\begin{tabular}{>{\centering\arraybackslash}p{0.3\linewidth} >{\centering\arraybackslash}p{0.6\linewidth}} % Two columns with width ratio, centered alignment
+\toprule % Top line
+\textbf{Symbol} & \textbf{Description} \\ 
+\midrule % Middle line
+
+$\text{PSNR}$    & Peak signal-to-noise ratio for image quality evaluation \\
+
+$\text{UCIQE}$   & Underwater Color Image Quality Evaluation metric \\
+
+$\text{UIQM}$    & Underwater Image Quality Measure \\
+
+\bottomrule % Bottom line
+\end{tabular}
+\label{table:notations}
+\end{table}
+\newpage
+\section{Models}
+\subsection{Modeling and Solving of Problem 1}
+\subsubsection{Problem Analysis}
+\subsubsection{Model Preparation}
+\subsubsection{Model Construction}
+\subsubsection{Model Solution}
+\subsection{Modeling and Solving of Problem 2}
+\subsubsection{Problem Analysis}
+\subsubsection{Model Preparation}
+\subsubsection{Model Construction}
+\subsubsection{Model Solution}
+\section{Sensitivity Analysis}
+\section{Model Evaluation and Promotion}
+\subsection{Model Evaluation}
+\subsubsection{Advantages}
+\subsubsection{Limitations}
+\subsection{Future Work}
+\subsubsection{Model extension}
+\subsubsection{Model application}
+\section{Conclusions}
+
+\begin{thebibliography}{9}%宽度9
+\bibitem{bib4} L. Prandtl, Fluid motions with very small friction, Proceedings of the 3rd International Mathematical Congress, Heidelberg: H. Schlichting, 1904, 484-491.
+
+\end{thebibliography}
+\section*{Appendices}
+
+
+\end{document}
