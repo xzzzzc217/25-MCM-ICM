@@ -1,0 +1,4 @@
+1，代码使用的工具是jupyter notebook
+2，需要安装库：tensflows，keras（很难装）
+3，code.py是通过notebook导出来的python代码，若要在pycharm中运行需要调整删除
+4，代码为python代码
